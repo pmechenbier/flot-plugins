@@ -1,14 +1,14 @@
 /*
-  Flot plugin for marking specific points.
-  Copyright (c) 2015 Patrick Mechenbier.
-  Licensed under the MIT license.
+Flot plugin for marking specific points.
+Copyright (c) 2015 Patrick Mechenbier.
+Licensed under the MIT license.
 */
 
 (function ($) {
     var options = {
         seriesannotations: {
-            dataIndex: 3, // the position in the data array where the true/false is that tells the series annotation to draw
-            color: "#00FFFF"
+            dataIndex: 2, // the position in the data array where the true/false is that tells the series annotation to draw
+            color: "#00FFFF" // the color to draw points
         }
     };
 
